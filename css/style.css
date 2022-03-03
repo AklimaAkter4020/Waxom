@@ -1,0 +1,865 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&family=Roboto&display family=Raleway:wght@500;600;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: 0 auto;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+ul,ol{
+    list-style: none;
+}
+/*=================================
+        All Common Part End
+==================================*/
+
+/*=================================
+        Navbar Part Start
+==================================*/
+#navbar{
+    background: transparent;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 30px 0;
+}
+#navbar.sticky {
+    position: fixed;
+    animation: sticky 1s linear;
+    z-index: 20;
+    background: rgba(15, 14, 14, 0.5)!important;
+    padding: 15px 0;
+}
+@keyframes sticky {
+    0%{
+       top: 0;
+    }
+    50%{
+        top: -30%;
+    }
+    100%{
+        top: 0;
+    }
+}
+.main-manu li{
+    margin: 0 10px;
+}
+.main-manu li a{
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+}
+.main-manu li a:hover{
+    color: #ebceb7;
+}
+/*=================================
+        Navbar Part End
+==================================*/
+
+
+/*=================================
+        Navbar Part End
+==================================*/
+
+#banner{
+    background: url(../img/Waxom-Hemepage.jpg) no-repeat center/cover;
+}
+#banner .overlay{
+    padding: 380px 0;
+    background: rgba(19, 19, 19, 0.5);
+    
+}
+.banner-text{
+    color: #ffffff;
+}
+.banner-text h2{
+    font-size: 36px;
+    font-family: 'Raleway', sans-serif; 
+    font-weight: 500;
+}
+.banner-text h1{
+    font-size: 48px;
+    font-family: 'Raleway', sans-serif; 
+    font-weight: 800;
+    padding-bottom: 10px;
+}
+#banner .banner-text p{
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    padding: 0 23px;
+    padding-bottom: 40px;
+}
+.banner-text a{
+    font-size: 14px;
+    background: #998675;
+    padding: 10px 20px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif; 
+    font-weight: 800;
+    border-radius: 5px;
+}
+/*=================================
+        Banner Part End
+==================================*/
+
+/*=================================
+        Service Part Start
+==================================*/
+#service{
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+.service-item .common{
+    height: 53px;
+}
+.service-item h4{
+    font-size: 22px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    padding-top: 20px;
+}
+#service .service-item p{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    position: relative;
+    padding-bottom: 30px;
+}
+#service .service-item p::after{
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 2px;
+    background: #e0dad6;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.service-item:hover h4{
+    color: #c7b299;
+}
+.service-item:hover p::after{
+    background: #c7b299!important;
+}
+.service-item .img img:nth-child(2){
+    display: none; 
+}
+.service-item .image img:nth-child(2){
+    display: none; 
+}
+.service-item .images img:nth-child(2){
+    display: none; 
+}
+.service-item .last-img img:nth-child(2){
+    display: none; 
+}
+
+.service-main:hover .service-item .img img:nth-child(1){
+    display: none; 
+}
+.service-main:hover .service-item .img img:nth-child(2){
+    display: inline-block; 
+}
+.service-main:hover .service-item .image img:nth-child(1){
+    display: none; 
+}
+.service-main:hover .service-item .image img:nth-child(2){
+    display: inline-block; 
+}
+.service-main:hover .service-item .images img:nth-child(1){
+    display: none; 
+}
+.service-main:hover .service-item .images img:nth-child(2){
+    display: inline-block; 
+}
+.service-main:hover .service-item .last-img img:nth-child(1){
+    display: none; 
+}
+.service-main:hover .service-item .last-img img:nth-child(2){
+    display: inline-block; 
+}
+/*=================================
+        Service Part End
+==================================*/
+
+/*=================================
+        Waxom Part Start
+==================================*/
+#waxom{
+    background: #fbfaf8;
+    padding-top: 75px;
+}
+.woxam-img img{
+    transform: scaleX(1.045);
+
+}
+.waxom-text h3{
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+.waxom-text p{
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    padding: 10px 0;
+}
+.purchase-btn{
+    text-align: center;
+}
+/*=================================
+        Waxom Part End
+==================================*/
+
+
+/*=================================
+        Wordpress Part Strat
+==================================*/
+#wordpress{
+    background: linear-gradient(to right, #261e1b,#493125);
+    padding: 50px 0;
+}
+#wordpress .wordpress-area .text-area{
+    color: #ffffff;
+}
+#wordpress .wordpress-area .text-area span{
+    color: #998675;
+}
+#wordpress .wordpress-area .text-area h3{
+    font-size: 28px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+#wordpress .wordpress-area .text-area p{
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    color: #534945;
+}
+/* .wordpress-area .purchase-btn a{
+    padding: 19px 28px 17px;
+    background: #998675;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    border-radius: 5px;
+    border-bottom: 3px solid rgb(114, 112, 112);
+} */
+
+.purchase-btn .rainbow{
+    background-color: #998675;
+    border-radius: 5px;  
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    cursor: pointer;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border-bottom: 1px solid rgb(119, 117, 117);
+}
+  
+.purchase-btn .rainbow-1:hover{
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, red);
+    animation:slidebg 2s linear infinite;
+}
+@keyframes slidebg {
+    to {
+      background-position:20vw;
+    }
+}
+/*=================================
+        Wordpress Part End
+==================================*/
+
+
+/*=================================
+        Project Part Start
+==================================*/
+#project{
+    padding: 80px 0;
+}
+.project-main .heading h2{
+    font-size: 30px;
+    font-family:'Raleway', sans-serif;
+    font-weight: 600;
+}
+.project-main .heading p{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+.project-main .pro-button{
+    padding-bottom: 40px;
+    padding-top: 10px;
+}
+.project-main .pro-button button:hover{
+    background: #998675;
+    color: #ffffff;
+}
+.project-main .pro-button button{
+    padding: 8px 20px;
+    background: white;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    
+}
+button {
+    font-size: 14px;
+    background: #999a9b;
+    color: rgb(15, 14, 14);
+    border: 2px solid #ababac;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+button:hover {
+    color: #101111;
+}
+button::after {
+    content: "";
+    background: #7b7c7b;
+    position: absolute;
+    z-index: -1;
+    display: block;
+}
+button[class^="slide"]::after {
+    transition: all 0.35s;
+}
+button[class^="slide"]:hover::after {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    transition: all 0.35s;
+}
+button[class^="grow"]::after {
+    transition: all 0.3s ease;
+}
+button[class^="grow"]:hover::after {
+    transition: all 0.3s ease-out;
+}
+button.grow_ellipse::after {
+    border-radius: 50%;
+    left: -50%;
+    right: -50%;
+    top: -150%;
+    bottom: -150%;
+    line-height: 8.34em;
+    transform: scale(0, 0);
+}
+button.grow_ellipse:hover::after {
+    transform: scale(1, 1);
+}
+.project-main .pro-item{
+    padding-bottom: 10px;
+}
+.project-main .pro-item .image{
+    position: relative;
+}
+.project-main .pro-item .image .ovarlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(87, 87, 87, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    transition: all linear .3s;
+    visibility: hidden;
+    opacity: 0;
+}
+.project-main .pro-item:hover .image .ovarlay{
+    visibility: visible;
+    opacity: 1;
+}
+.image .ovarlay i{
+    color: #ffffff;
+   font-size: 20px;
+}
+.pro-item:hover .image .ovarlay i{
+   color: #ffffff;
+}
+.pro-item:hover .image .ovarlay span{
+    color: #8d6f55;
+ }
+.project-main .pro-item .text{
+    background: #fbfaf8;
+    padding: 30px 30px 0;
+    position: relative;
+    transition: all linear .3s;
+}
+
+.project-main .pro-item .text::after{
+    position: absolute;
+    content: " ";
+    width: 25px;
+    height: 25px;
+    top: -13px;
+    left: 20px;
+    background: #fbfaf8;
+    transform: rotate(45deg) ;
+    transition: all linear .3s;
+}
+.project-main .pro-item:hover .text::after{
+    background: #362f2d;
+}
+.project-main .pro-item .text h4{
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+.project-main .pro-item:hover .text{
+    background: #362f2d;
+    color: #ffffff;
+}
+.project-main .pro-item .text p{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+
+/*=================================
+        Project Part End
+==================================*/
+
+
+
+/*=================================
+    Presentation Part Start
+==================================*/
+#presentation {
+    background: url(../img/Hemepage.jpg) no-repeat center/cover;
+}
+
+#presentation .overlay {
+    padding-top: 210px;
+    padding-bottom: 255px;
+    background: rgb(46, 37, 32, .5);
+}
+
+.presentation img {
+    border-radius: 50%;
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.presentation h2 {
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    color: #ffffff;
+    padding-top: 40px;
+}
+
+.presentation p {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #ffffff;
+    padding: 5px 60px;
+
+}
+
+/*=================================
+        Presentation Part End
+==================================*/
+/*=================================
+        Device Part Start
+==================================*/
+#device{
+    padding-top: 80px;
+}
+#device .device .phn-text h2 {
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+#device .device .phn-text p {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    line-height: 25px;
+}
+.device .phn-text ul{
+    padding-left: 50px;
+}
+.device .phn-text ul li{
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    padding-bottom: 10px;
+}
+.device .phn-text ul li i{
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    border-radius: 50%;
+    background: #c29b79;
+    text-align: center;
+    color: #fff;
+    margin-right: 30px;
+    
+    
+}
+/*=================================
+        Device Part End
+==================================*/
+/*=================================
+        Counter Part start
+==================================*/
+#counter{
+    padding-top: 70px;
+    padding-bottom: 55px;
+    background: linear-gradient(to right, #241d1a, #4d3327);
+    color: #fff;
+}
+.counter-area .count-item h2{
+    font-size: 48px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 30px;
+}
+.counter-area .count-item p{
+    position: relative;
+    color: #c7b299;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+.counter-area .count-item p::after{
+    position: absolute;
+    content: "";
+    width: 30px;
+    height: 2px;
+    top: 40px;
+    left: 50%;
+    background: #fff;
+    transform: translateX(-50%);
+}
+/*=================================
+        Counter Part End
+==================================*/
+/*=================================
+        Post Part Start
+==================================*/
+#post{
+    padding-top: 82px;
+    padding-bottom: 142px;
+}
+.post_text{
+    margin-bottom: 20px;
+}
+.post_text h4{
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    color: #555555;
+    margin-bottom: 15px;
+}
+.post_text p{
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #8c8c8c;
+    line-height: 28px;
+}
+.post_item{
+    position: relative;
+    margin: 0 12px;
+}
+.post_item .img_part{
+    position: relative;
+}
+.post_item .img_part .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.70);
+    opacity: 0;
+    visibility: hidden;
+    transition: all linear .3s;
+}
+.post_item:hover .img_part .overlay{
+    opacity: 1;
+    visibility: visible;
+}
+.slick-center .img_part .overlay{
+    opacity: 1;
+    visibility: visible;
+}
+.post_item .calander{
+    position: absolute;
+    content: " ";
+    top: 30px;
+    left: 30px;
+    border-radius: 5px;
+    width: 50px;
+    text-align: center;
+    overflow: hidden;
+    z-index: 20;
+    color: #ffffff;
+}
+.post_item .calander .day{
+    line-height: 35px;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    background: #363636;
+    transition: all linear .3s;
+}
+.post_item:hover .calander .day{
+    background: #c7b299;
+}
+.slick-center .calander .day{
+    background: #c7b299;
+}
+.post_item .calander .day p{
+    margin: 0;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+}
+.post_item .calander .month{
+    background: #252525;
+    line-height: 25px;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    transition: all linear .3s;
+}
+.post_item:hover .calander .month{
+    background: #a48d72;
+}
+.slick-center .calander .month{
+    background: #a48d72;
+}
+.post_item .text_part{
+    padding: 30px;
+    transition: all linear .3s;
+}
+.post_item:hover .text_part{
+    background: #362f2d;
+}
+.slick-center .text_part{
+    background: #362f2d;
+}
+.post_item .text_part h4{
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    color: #555555;
+    transition: all linear .3s;
+}
+.post_item:hover .text_part h4{
+    color: #c7b299;
+}
+.slick-center .text_part h4{
+    color: #c7b299;
+}
+.post_item .text_part p{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #8c8c8c;
+}
+.post_item:hover .text_part p{
+    color: #ffffff;
+}
+.slick-center .text_part p{
+    color: #ffffff;
+}
+.post_item .text_part a{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #c7b299;
+}
+.prev{
+    position: absolute;
+    bottom: -40px;
+    left: 47.5%;
+    border-radius: 50%;
+    font-size: 14px;
+    border: 1px solid #961717;
+    color: #8f1c1c;
+    transition: all linear .3s;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.prev:hover{
+    color: #929292;
+    border: 1px solid #929292;
+}
+.next{
+    position: absolute;
+    bottom: -40px;
+    right: 47.5%;
+    border-radius: 50%;
+    font-size: 14px;
+    color: #8f1c1c;
+    border: 1px solid #8f1c1c;
+    transition: all linear .3s;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.next:hover{
+    color: #929292;
+    border: 1px solid #929292;
+}
+/*=================================
+        Recent Part End
+==================================*/
+
+/*=================================
+        Brand-logo Part Start
+==================================*/
+#brand-logo{
+    background: url(../img/img5.jpg) no-repeat center/cover;
+    border-bottom: 1px solid rgb(134, 133, 133);
+   
+}
+#brand-logo .overlay{
+    background: rgba(3, 3, 3, .7);
+    padding: 140px 0;
+}
+ 
+/*=================================
+        Brand-logo Part End
+==================================*/
+
+/*=================================
+        Footer Part Start
+==================================*/
+#footer{
+    background: #191919;
+    
+}
+.border-botto{
+    border-bottom: 1px solid rgb(138, 137, 137);
+}
+.footer-area{
+    padding: 80px 0;
+}
+.footer-logo p{
+    font-size: 14px;
+    color: #525252;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    line-height: 25px;
+    padding-top: 30px;
+}
+.footer-logo a{
+    font-size: 14px;
+    color: #ffffff;
+    padding-top: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500 ;
+}
+.footer-logo a i{
+   padding-left: 10px;
+}
+.footer-item{
+    padding-top: 20px;
+}
+.footer-item h4{
+    font-size: 24px;
+    color: #ffffff;
+    padding-bottom: 10px;
+}
+.footer-item .news-headline{
+    border-bottom: 1px solid #424242;
+   
+}
+.footer-item .news-headline:nth-child(4){
+    border: none;
+}
+.footer-item .news-headline a h6{
+    font-size: 12px;
+    color: #555555;
+    padding-top: 20px;
+}
+.footer-item .news-headline a p{
+    font-size: 14px;
+    color: #555555;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    
+}
+.footer-item .news-headline a:hover h6{
+    color: #e7e5e5;
+}
+.footer-item .news-headline a:hover p{
+    color: #c7b299;
+}
+.footer-item .twitter{
+    color: #555555;
+    border-bottom: 1px solid #424242;
+    padding-bottom: 10px;
+}
+.footer-item .twitter:nth-child(4){
+    border: none;
+}
+.footer-item .twitter p{
+    padding-top: 10px;
+}
+.footer-item .twitter a{
+    color: #1258e1;
+}
+.footer-item .twitter a.link{
+    color: #a1a1a1;
+}
+.copy-right{
+    background:#101111;
+    color: #424242;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.copy-text-left a.copy-woxom{
+    color: #959595;
+}
+.copy-text-left a.faq{
+    color: #c7b299;
+}
+.copy-text-right{
+    text-align: right;
+}
+.copy-text-right a.thame{
+    color: #959595;
+}
+.copy-text-right a.envato{
+    color: #959595;
+}
+/*=================================
+        Footer Part End
+==================================*/

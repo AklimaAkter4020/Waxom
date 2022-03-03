@@ -1,0 +1,1120 @@
+@media (max-width:575.98px){
+    .logo img{
+        width: 70%;
+    }
+    .navbar-toggler{
+        color: white;
+    }
+/*======= Banner Part Start =======*/
+    #banner .overlay{
+        padding-top: 150px;
+        padding-bottom: 80px; 
+    }
+    .banner-text h2{
+        font-size: 20px;
+    }
+    .banner-text h1{
+        font-size: 23px;
+        padding-bottom: 10px;
+    }
+    .banner-text p{
+        font-size: 14px!important;
+    }
+    .banner-text a{
+        font-size: 10px;
+        padding: 6px 10px;
+    }
+/*====== Banner Part End ======*/
+
+/*====== Waxom Part Start ======*/
+    #waxom{
+        padding-top: 50px;
+    }
+    .woxam-img img{
+        transform: scaleX(1.045);
+    }
+    .waxom-text h3{
+        font-size: 23px;
+    }
+    .waxom-text p{
+        font-size: 12px;
+        padding: 10px 0;
+    }
+/*====== Waxom Part End ======*/
+
+/*==============================
+    Wordpress Part Start    
+===============================*/
+    #wordpress{
+        padding: 50px 0;
+    }
+    #wordpress .wordpress-area .text-area h3{
+        font-size: 18px;
+    }
+    #wordpress .wordpress-area .text-area p{
+        font-size: 15px;
+    }
+    .purchase-btn{
+        text-align: left;
+    }
+    .purchase-btn .rainbow{
+        border-radius: 5px;  
+        font-size: 10px;
+        padding: 6px 15px;  
+    }
+      
+/*==============================
+    Wordpress Part End    
+===============================*/
+
+/*==============================
+        Project Part Start    
+===============================*/
+    #project{
+        padding: 40px 0;
+    }
+    .project-main .heading h2{
+        font-size: 22px;
+    }
+    .project-main .heading p{
+        font-size: 12px;
+    }
+    .project-main .pro-button{
+        /* padding-bottom: 40px; */
+        padding-top: 10px;
+    }
+    .project-main .pro-button button{
+        padding: 5px 15px;
+        font-size: 12px;
+    }
+    .bton{
+        padding-bottom: 30px;
+    }
+    button {
+        font-size: 14px;
+    }
+    .project-main .pro-button {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+/*==============================
+        Project Part End    
+===============================*/
+
+/*==============================
+    Presentation Part Start    
+===============================*/
+    #presentation .overlay {
+        padding: 60px 0;
+    }
+
+    .presentation img {
+        padding: 10px;
+    }
+
+    .presentation h2 {
+        font-size: 24px;
+        padding-top: 40px;
+    }
+
+    .presentation p {
+        font-size: 13px;
+        padding: 5px 0px;
+    }
+/*==============================
+    Presentation Part End    
+===============================*/
+
+/*==============================
+        Device Part Start    
+===============================*/
+    #device{
+        padding-top: 30px;
+    }
+    #device .device .phn-text h2 {
+        font-size: 21px;
+        padding: 20px 0;
+    }
+    #device .device .phn-text p {
+        font-size: 13px;
+        line-height: 25px;
+    }
+    .device .phn-text ul{
+        padding-left: 10px;
+    }
+    .device .phn-text ul li{
+        font-size: 13px;
+        display: flex;
+    }
+    .device .phn-text ul li i{
+        width: 15px;
+        height: 15px;
+        line-height: 15px;
+        margin-right: 10px;
+        font-size: 12px;
+    }
+/*==============================
+        Device Part End    
+===============================*/
+/*===============================
+        Counter Part start
+===============================*/
+    .counter-area .count-item{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .counter-area .count-item h2{
+        font-size: 48px;
+        padding-top: 10px;
+    }
+    .counter-area .count-item p{
+        font-size: 14px;
+    }
+    .counter-area .count-item p::after{
+        top: 30px;
+    }
+/*===============================
+        Counter Part End
+=================================*/
+
+/*=================================
+        Post Part Start
+==================================*/
+    #post{
+        padding-top: 50px;
+        padding-bottom: 80px;
+    }
+    .post_text{
+        margin-bottom: 20px;
+    }
+    .post_text h4{
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+    .post_text p{
+        font-size: 13px;
+        line-height: 28px;
+    }
+    .post_item{
+        margin: 0 12px;
+    }
+    .slider_item ul li{
+        list-style: none;
+    }
+    .post_item .calander{
+        top: 30px;
+        left: 30px;
+        border-radius: 5px;
+        width: 50px;
+    }
+    .post_item .calander .day{
+        line-height: 35px;
+        font-size: 24px;
+    }
+    .post_item .calander .day p{
+        margin: 0;
+        font-size: 24px;
+    }
+    .post_item .calander .month{
+        line-height: 25px;
+        font-size: 12px;
+    }
+    .post_item .text_part{
+        padding: 20px;
+    }
+    .post_item .text_part h4{
+        font-size: 17px;
+    }
+    .post_item .text_part p{
+        font-size: 13px;
+    }
+    .post_item .text_part a{
+        font-size: 14px;
+    }
+    .post_item .text_part a i{
+        padding-left: 7px;
+    }
+    .prev{
+        bottom: -40px;
+        left: 52%;
+        font-size: 12px;
+        width: 20px;
+        height: 20px;
+        line-height: 20px;
+    }
+    .next{
+        bottom: -40px;
+        right: 52%;
+        font-size: 12px;
+        width: 20px;
+        height: 20px;
+        line-height: 20px;
+    }
+
+/*=================================
+        Recent Part End
+==================================*/
+
+/*=================================
+        Brand-logo Part Start
+==================================*/
+    #brand-logo .overlay{
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+    #brand-logo .logo-item{
+        padding-bottom: 40px;
+    }
+    #brand-logo .logo-item img{
+        width: 50%;
+    }
+    /*=================================
+            Brand-logo Part End
+    ==================================*/
+    /*=================================
+            Footer Part Start
+    ==================================*/
+    .footer-area{
+        padding: 50px 0;
+    }
+    .footer-logo .img{
+        text-align: center; 
+    }
+    .footer-logo p{
+        font-size: 14px;
+        line-height: 25px;
+        padding: 15px;
+    }
+    .footer-logo a{
+        font-size: 12px;
+        padding-top: 0;
+        padding-left: 15px;
+    }
+    .footer-logo a i{
+    padding-left: 10px;
+    }
+    .footer-item{
+        padding-top: 20px;
+    }
+    .footer-item h4{
+        font-size: 24px;
+        padding: 10px 0;
+        text-align: center;
+    }
+    .news-headline{
+        padding: 15px;
+    }
+    .footer-item .news-headline a p{
+        font-size: 14px;
+    }
+    .footer-item .twitter{
+        padding-bottom: 10px;
+        padding: 15px;
+    }
+
+    .footer-item .twitter p{
+        padding-top: 10px;
+    }
+    .copy-right{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .copy-text-left{
+        font-size: 14px;
+    }
+    .copy-text-right{
+        font-size: 14px;
+        text-align: left;
+    }
+    /*=================================
+            Footer Part End
+    ==================================*/
+
+}
+
+
+
+
+
+
+
+@media (min-width:576px) and (max-width:767.98px){
+    .logo img{
+        width: 80%;
+    }
+    .navbar-toggler{
+        color: white;
+    }
+    #banner .overlay{
+        padding: 120px 0;
+    }
+    .banner-text h2{
+        font-size: 28px;
+    }
+    .banner-text h1{
+        font-size: 33px;
+        padding-bottom: 10px;
+    }
+    .banner-text p{
+        font-size: 14px;
+        padding: 0 7px;
+        padding-bottom: 40px;
+    }
+    .banner-text a{
+        font-size: 10px;
+        padding: 10px 15px;
+        border-radius: 5px;
+    }
+    /*==============================
+        Waxom Part Start    
+===============================*/
+    #waxom{
+        padding-top: 50px;
+    }
+    .waxom-text h3{
+        font-size: 28px;
+    }
+    .waxom-text p{
+        font-size: 15px;
+        padding: 10px 0;
+    }
+    /*==============================
+        Waxom Part End    
+    ===============================*/
+
+    /*==============================
+    Wordpress Part Start    
+    ===============================*/
+    #wordpress{
+        padding: 50px 0;
+    }
+    #wordpress .wordpress-area .text-area h3{
+        font-size: 18px;
+    }
+    #wordpress .wordpress-area .text-area p{
+        font-size: 15px;
+    }
+    .purchase-btn{
+        text-align: left;
+    }
+    .purchase-btn .rainbow{  
+        font-size: 10px;
+        padding: 6px 15px; 
+    }
+    
+    /*==============================
+    Wordpress Part End    
+    ===============================*/
+
+
+    /*==============================
+    Project Part Start    
+    ===============================*/
+    .project-main .pro-button button {
+        padding: 5px 10px;
+    }
+    /*==============================
+    Project Part End    
+    ===============================*/
+    /*==============================
+    Presentation Part Start    
+    ===============================*/
+    #presentation .overlay {
+        padding: 60px 0;
+    }
+
+    .presentation img {
+        padding: 10px;
+    }
+
+    .presentation h2{
+        font-size: 35px;
+        padding-top: 40px;
+    }
+
+    .presentation p {
+        font-size: 16px;
+        padding: 5px 0px;
+    }
+    /*==============================
+    Presentation Part End    
+    ===============================*/
+
+    /*==============================
+        Device Part Start    
+    ===============================*/
+    #device{
+        padding-top: 30px;
+    }
+    #device .device .phn-text h2 {
+        font-size: 28px;
+        padding: 20px 0;
+    }
+
+    #device .device .phn-text p {
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .device .phn-text ul{
+        padding-left: 10px;
+    }
+    .device .phn-text ul li{
+        font-size: 13px;
+        display: flex;
+    }
+    .device .phn-text ul li span{
+        display: inline-block;
+    }
+    .device .phn-text ul li i{
+        width: 15px;
+        height: 15px;
+        line-height: 15px;
+        margin-right: 10px;
+        font-size: 13px;
+    }
+    /*==============================
+        Device Part End    
+    ===============================*/
+    /*===============================
+        Counter Part start
+    ===============================*/
+    .counter-area .count-item{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .counter-area .count-item h2{
+        font-size: 48px;
+        padding-top: 10px;
+    }
+    .count-item .last-child{
+        align-items: center;
+    }
+    .counter-area .count-item p{
+        font-size: 14px;
+    }
+    .counter-area .count-item p::after{
+        top: 40px;
+    }
+    /*===============================
+        Counter Part End
+    =================================*/
+
+    /*=================================
+        Post Part Start
+    ==================================*/
+    #post{
+        padding-top: 50px;
+        padding-bottom: 80px;
+    }
+    .post_text{
+        margin-bottom: 20px;
+    }
+    .post_text h4{
+        font-size: 33px;
+        margin-bottom: 15px;
+    }
+    .post_text p{
+        font-size: 15px;
+        line-height: 28px;
+    }
+    .post_item{
+        margin: 0 12px;
+    }
+    .slider_item ul li{
+        list-style: none;
+    }
+    .post_item .calander{
+        top: 30px;
+        left: 30px;
+        border-radius: 5px;
+        width: 50px;
+    }
+    .post_item .calander .day{
+        line-height: 35px;
+        font-size: 24px;
+    }
+    .post_item .calander .day p{
+        margin: 0;
+        font-size: 24px;
+    }
+    .post_item .calander .month{
+        line-height: 25px;
+        font-size: 12px;
+    }
+    .post_item .text_part{
+        padding: 20px;
+    }
+    .post_item .text_part h4{
+        font-size: 15px;
+    }
+    .post_item .text_part p{
+        font-size: 12px;
+    }
+    .post_item .text_part a{
+        font-size: 14px;
+    }
+    .post_item .text_part a i{
+        padding-left: 7px;
+    }
+    .prev{
+        bottom: -40px;
+        left: 52%;
+        font-size: 12px;
+        width: 20px;
+        height: 20px;
+        line-height: 20px;
+    }
+    .next{
+        right: 52%;
+        font-size: 12px;
+        width: 20px;
+        height: 20px;
+        line-height: 20px;
+    }
+
+    /*=================================
+        Recent Part End
+    ==================================*/
+
+    /*=================================
+        Brand-logo Part Start
+    ==================================*/
+    #brand-logo .overlay{
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+    #brand-logo .logo-item{
+        padding-bottom: 40px;
+    }
+    #brand-logo .logo-item img{
+        width: 60%;
+    }
+    /*=================================
+        Brand-logo Part End
+    ==================================*/
+    /*=================================
+        Footer Part Start
+    ==================================*/
+    .footer-area{
+    padding: 50px 0;
+    }
+    .footer-logo .img{
+    text-align: center; 
+    }
+    .footer-logo p{
+    font-size: 14px;
+    }
+    .footer-logo a{
+    font-size: 12px;
+    padding-top: 0;
+    padding-left: 15px;
+    }
+    .footer-logo a i{
+    padding-left: 10px;
+    }
+    .footer-item{
+    padding-top: 20px;
+    }
+    .footer-item h4{
+    font-size: 24px;
+    padding: 10px 0;
+    text-align: center;
+    }
+    .news-headline{
+    padding: 15px;
+    }
+    .footer-item .news-headline a p{
+    font-size: 14px;
+    }
+    .footer-item .twitter{
+    padding: 15px;
+    }
+    .copy-text-left{
+    font-size: 14px;
+    }
+    .copy-text-right{
+    font-size: 14px;
+    text-align: left;
+    }
+}
+/*=================================
+    Footer Part End
+==================================*/
+
+@media (min-width:768px) and (max-width:991.98px){
+    .logo img{
+        width: 100%;
+    }
+    .navbar-toggler{
+        color: white;
+    }
+    #banner .overlay{
+        padding: 160px 0;
+    }
+    .banner-text h2{
+        font-size: 33px;
+    }
+    .banner-text h1{
+        font-size: 44px;
+        padding-bottom: 10px;
+    }
+    .banner-text p{
+        font-size: 16px;
+        padding: 0 20px;
+        padding-bottom: 40px;
+    }
+    .banner-text a{
+        font-size: 14px;
+        padding: 10px 20px;
+        border-radius: 5px;
+    }
+    /*==============================
+            Waxom Part Start    
+    ===============================*/
+    #waxom{
+        padding-top: 50px;
+    }
+    .waxom-text h3{
+        font-size: 25px;
+    }
+    .waxom-text p{
+        font-size: 14px;
+        padding: 10px 0;
+    }
+    /*==============================
+        Waxom Part End    
+    ===============================*/
+
+    /*==============================
+    Wordpress Part Start    
+    ===============================*/
+    #wordpress{
+        padding: 50px 0;
+    }
+    #wordpress .wordpress-area .text-area h3{
+        font-size: 18px;
+    }
+    #wordpress .wordpress-area .text-area p{
+        font-size: 15px;
+    }
+    .purchase-btn{
+        text-align: right;
+    }
+    .purchase-btn .rainbow{
+        border-radius: 5px;  
+        font-size: 10px;
+        padding: 6px 15px;  
+    }
+    
+    /*==============================
+    Wordpress Part End    
+    ===============================*/
+
+    /*==============================
+        Project Part Start    
+    ===============================*/
+    #project{
+        padding: 40px 0;
+    }
+    .project-main .heading h2{
+        font-size: 28px;
+    }
+    .project-main .heading p{
+        font-size: 15px;
+    }
+    .project-main .pro-button{
+        /* padding-bottom: 40px; */
+        padding-top: 10px;
+    }
+    .project-main .pro-button button{
+        padding: 8px 20px;
+        font-size: 14px;
+    }
+    .bton{
+        padding-bottom: 30px;
+    }
+    button {
+        font-size: 14px;
+    }
+    /*==============================
+        Project Part End    
+    ===============================*/
+
+    /*==============================
+    Presentation Part Start    
+    ===============================*/
+    #presentation .overlay {
+        padding: 60px 0;
+    }
+
+    .presentation img {
+        padding: 10px;
+    }
+
+    .presentation h2 {
+        font-size: 25px;
+        padding-top: 40px;
+    }
+
+    .presentation p {
+        font-size: 13px;
+        padding: 5px 0px;
+    }
+    /*==============================
+    Presentation Part End    
+    ===============================*/
+
+    /*==============================
+        Device Part Start    
+    ===============================*/
+    #device{
+        padding-top: 30px;
+    }
+    #device .device .phn-text h2 {
+        font-size: 21px;
+        padding: 20px 0;
+    }
+
+    #device .device .phn-text p {
+        font-size: 13px;
+        line-height: 25px;
+    }
+    .device .phn-text ul{
+        padding-left: 10px;
+    }
+    .device .phn-text ul li{
+        font-size: 13px;
+        display: flex;
+    }
+    .device .phn-text ul li span{
+        display: inline-block;
+    }
+    .device .phn-text ul li i{
+        width: 15px;
+        height: 15px;
+        line-height: 15px;
+        margin-right: 10px;
+        font-size: 12px;
+    }
+    /*==============================
+        Device Part End    
+    ===============================*/
+    /*===============================
+        Counter Part start
+    ===============================*/
+    .counter-area .count-item{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .counter-area .count-item h2{
+        font-size: 48px;
+        padding-top: 10px;
+    }
+    .counter-area .count-item p{
+        font-size: 14px;
+    }
+    .counter-area .count-item p::after{
+        top: 30px;
+    }
+    /*===============================
+        Counter Part End
+    =================================*/
+
+    /*=================================
+        Post Part Start
+    ==================================*/
+    #post{
+        padding-top: 50px;
+        padding-bottom: 80px;
+    }
+    .post_text{
+        margin-bottom: 20px;
+    }
+    .post_text h4{
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+    .post_text p{
+        font-size: 13px;
+        line-height: 28px;
+    }
+    .post_item{
+        margin: 0 12px;
+    }
+    .slider_item ul li{
+        list-style: none;
+    }
+    .post_item .calander{
+        top: 30px;
+        left: 30px;
+        border-radius: 5px;
+        width: 50px;
+    }
+    .post_item .calander .day{
+        line-height: 35px;
+        font-size: 24px;
+    }
+    .post_item .calander .day p{
+        margin: 0;
+        font-size: 24px;
+    }
+    .post_item .calander .month{
+        line-height: 25px;
+        font-size: 12px;
+    }
+    .post_item .text_part{
+        padding: 20px;
+    }
+    .post_item .text_part h4{
+        font-size: 17px;
+    }
+    .post_item .text_part p{
+        font-size: 13px;
+    }
+    .post_item .text_part a{
+        font-size: 14px;
+    }
+    .post_item .text_part a i{
+        padding-left: 7px;
+    }
+    .prev{
+        bottom: -40px;
+        left: 52%;
+        font-size: 12px;
+        width: 20px;
+        height: 20px;
+        line-height: 20px;
+    }
+    .next{
+        bottom: -40px;
+        right: 52%;
+        font-size: 12px;
+        width: 20px;
+        height: 20px;
+        line-height: 20px;
+    }
+
+    /*=================================
+        Recent Part End
+    ==================================*/
+
+    /*=================================
+        Brand-logo Part Start
+    ==================================*/
+    #brand-logo .overlay{
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+    #brand-logo .logo-item{
+        padding-bottom: 40px;
+    }
+    #brand-logo .logo-item img{
+        width: 70%;
+    }
+    /*=================================
+        Brand-logo Part End
+    ==================================*/
+    /*=================================
+        Footer Part Start
+    ==================================*/
+    .footer-area{
+        padding: 50px 0;
+    }
+    .footer-logo .img{
+        text-align: center;
+        width: 80%; 
+    }
+    .footer-logo p{
+        font-size: 14px;
+        line-height: 35px;
+        padding-top: 40px;
+    }
+    .footer-logo a{
+        font-size: 12px;
+        padding-top: 0;
+        padding-left: 10px;
+    }
+    .footer-item .twitter{
+    padding-bottom: 10px;
+    }
+
+    .copy-right{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    }
+    .copy-text-left p a{
+        margin: 0 7px;
+    }
+    .copy-text-left{
+    font-size: 12px;
+    }
+    .copy-text-right{
+    font-size: 13px;
+    text-align: right;
+    }
+}
+/*=================================
+    Footer Part End
+==================================*/
+
+@media (min-width:992px) and (max-width:1199.98px){
+    .logo img{
+        width: 100%;
+    }
+    .main-manu li{
+        margin: 0 3px;
+    }
+    #banner .overlay{
+        padding-top: 250px;
+        padding-bottom: 130px;
+    }
+    .banner-text h2{
+        font-size: 34px;
+    }
+    .banner-text h1{
+        font-size: 45px;
+        padding-bottom: 10px;
+    }
+    .banner-text p{
+        font-size: 16px;
+        padding: 0 23px;
+        padding-bottom: 40px;
+    }
+    .banner-text a{
+        font-size: 14px;
+        padding: 10px 20px;
+        border-radius: 5px;
+    }
+    /*======== Banner part End =======*/
+
+
+    /*======= Service part Start ======*/
+    #service .service-item p{
+        font-size: 12px;
+    }
+    /*======== Service part End =======*/
+
+    /*=================================
+    Presentation Part Start
+    ==================================*/
+    #presentation .overlay {
+        padding-top: 160px;
+        padding-bottom: 150px;
+    }
+    /*=================================
+    Presentation Part End
+    ==================================*/
+    /*==============================
+        Device Part Start    
+    ===============================*/
+    #device{
+        padding-top: 50px;
+    }
+    #device .device .phn-text h2 {
+        font-size: 30px;
+        padding: 10px 0;
+    }
+
+    #device .device .phn-text p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .device .phn-text ul{
+        padding-left: 40px;
+    }
+    .device .phn-text ul li{
+        font-size: 15px;
+        display: flex;
+    }
+    .device .phn-text ul li i{
+        width: 20px;
+        height: 20px;
+        line-height: 20px;
+        margin-right: 10px;
+        font-size: 14px;
+    }
+    /*==============================
+        Device Part End    
+    ===============================*/
+
+    /*=================================
+        Post Part Start
+    ==================================*/
+    #post{
+        padding-top: 50px;
+        padding-bottom: 80px;
+    }
+    .post_text{
+        margin-bottom: 20px;
+    }
+    .post_text h4{
+        font-size: 33px;
+        margin-bottom: 15px;
+    }
+    .post_text p{
+        font-size: 15px;
+        line-height: 28px;
+    }
+    .post_item{
+        margin: 0 12px;
+    }
+    .post_item .calander{
+        top: 30px;
+        left: 30px;
+        width: 50px;
+    }
+    .post_item .calander .day{
+        line-height: 35px;
+        font-size: 24px;
+    }
+    .post_item .calander .day p{
+        margin: 0;
+        font-size: 24px;
+    }
+    .post_item .calander .month{
+        line-height: 25px;
+        font-size: 12px;
+    }
+    .post_item .text_part{
+        padding: 20px;
+    }
+    .post_item .text_part h4{
+        font-size: 15px;
+    }
+    .post_item .text_part p{
+        font-size: 12px;
+    }
+    .post_item .text_part a{
+        font-size: 14px;
+    }
+    .post_item .text_part a i{
+        padding-left: 7px;
+    }
+    .prev{
+        bottom: -40px;
+        left: 47%;
+        font-size: 12px;
+        width: 20px;
+        height: 20px;
+        line-height: 20px;
+    }
+    .next{
+        bottom: -40px;
+        right: 47%;
+        font-size: 12px;
+        width: 20px;
+        height: 20px;
+        line-height: 20px;
+    }
+}
+    /*=================================
+        post Part End
+    ==================================*/
+    
+@media (min-width:1200px) and (max-width:1399.98px){
+    
+}
